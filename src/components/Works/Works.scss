@@ -1,0 +1,116 @@
+.Works{
+   // background-color: crimson;
+    background-image: url("https://i.imgur.com/Yj15qi8.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow{
+        height: 70px;
+        position: absolute;
+        cursor: pointer;
+
+        &.left{
+            left: 100px;
+            transform:rotateY(180deg);
+            
+        }
+        &.right{
+            right: 100px;
+        }
+    
+    }
+
+    
+    .slider{
+        height: 350px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        overflow:hidden;
+        transition: all 1s ease-out;
+
+        .container{
+            
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow:hidden;
+
+             .item{
+                 width: 700px;
+                 height: 100%;
+                 background-color:rgb(218, 126, 144);
+                 border-radius: 20px;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 overflow:hidden;
+                 .left{
+                     flex:4;
+                     height: 80%;
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     overflow:hidden;
+                     .leftcontainer{
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+
+                        .imgcontainer{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            background-color:rgb(245, 167, 139);
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            overflow:hidden;
+
+                            .img{
+                                width: 25px;
+                                overflow:hidden;
+                            }
+
+                        }
+                        h2{
+                            font-size: size 20px;
+                        }
+                        p{
+                            font-size:13px;
+
+                        }
+                        span{
+                            font-size: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                     }
+                 }
+
+                 .right{
+                     flex:8;
+                     height: 100%;
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     overflow:hidden;
+                     img{
+                        width: 400px;
+                        height: 500px;
+                        transform: rotate(-10deg);
+                        overflow: hidden;
+                     }
+                    
+                 }
+             }
+
+        }
+    }
+}

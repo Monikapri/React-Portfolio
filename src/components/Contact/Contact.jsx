@@ -23,7 +23,7 @@ const handleSubmit=(e)=>{
               <input type="text"  placeholder="Email"/>
               <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
               <button type="submit">Send</button>
-              {msg&&<span>Thanks,I'll reply ASAP:)</span>}
+              {msg&&<span>Thanks,I'll reply ASAP, and will contact you thru mobile and email:)</span>}
           </form>
       </div>
   </div>

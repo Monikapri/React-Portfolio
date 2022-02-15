@@ -39,6 +39,12 @@
             flex-direction: column;
             justify-content: center;
         }
+        textarea{
+            width: 300px;
+            height: 200px;
+            font-size: 14px;
+        }
+
         
         input{
             width: 300px;
@@ -46,12 +52,7 @@
             font-size: 14px;
         }
 
-        textarea{
-            width: 300px;
-            height: 200px;
-            font-size: 14px;
-        }
-
+       
         button{
             width: 150px;
             height: 30px;
@@ -74,7 +75,6 @@
         }
 
         span{
-
             color: green;
         }
 
